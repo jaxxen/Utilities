@@ -1,14 +1,14 @@
 <?php
 
-namespace Jaxxn\Support;
+namespace Jaxxn\Utilities;
 
 use ArrayAccess;
 use ArrayIterator;
 use Countable;
 use IteratorAggregate;
-use Jaxxn\Support\Interfaces\IArrayable;
-use Jaxxn\Support\Interfaces\IJsonable;
-use Jaxxn\Support\Interfaces\IMakeable;
+use Jaxxn\Utilities\Interfaces\IArrayable;
+use Jaxxn\Utilities\Interfaces\IJsonable;
+use Jaxxn\Utilities\Interfaces\IMakeable;
 use JsonSerializable;
 
 class GenericCollection implements  Countable, ArrayAccess, IteratorAggregate, IJsonable, IArrayable, IMakeable, JsonSerializable

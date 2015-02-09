@@ -1,7 +1,7 @@
 <?php
 namespace Jaxxn\Framework;
 
-use Jaxxn\Support\Interfaces\ISingleton;
+use Jaxxn\Utilities\Interfaces\ISingleton;
 
 class Application implements ISingleton
 {

@@ -12,7 +12,7 @@
             "Jaxxn\\" : "src/Jaxxn" 
         },
         "files" : [
-            "src/Jaxxn/Support/helpers.php"
+            "src/Jaxxn/Utilities/helpers.php"
         ]
     }
 }

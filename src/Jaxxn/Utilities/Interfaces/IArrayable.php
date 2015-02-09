@@ -1,6 +1,6 @@
 <?php
 
-namespace Jaxxn\Support\Interfaces;
+namespace Jaxxn\Utilities\Interfaces;
 
 
 interface IArrayable
