@@ -1,12 +1,16 @@
 {
-    "name": "Jaxxn/Utilities",
+    "name": "jaxxn/utilities",
+    "description": "Daily utilities.",
+    "license": "MIT",
     "authors": [
         {
             "name": "Andreas Jansson",
             "email": "andreas.jansson@sweetpop.se"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=5.4.0"
+    },
     "minimum-stability": "dev",
     "autoload" : {
         "psr-4" : {
@@ -15,5 +19,10 @@
         "files" : [
             "src/Jaxxn/Utilities/helpers.php"
         ]
-    }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    },
 }
